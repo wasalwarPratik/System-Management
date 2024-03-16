@@ -1,0 +1,51 @@
+2024-03-07T15:56:40.429+05:30  INFO 10352 --- [main] c.p.m.SystemManagementApplication        : Starting SystemManagementApplication using Java 17.0.6 with PID 10352 (C:\Users\My\OneDrive\Documents\Project\learn_with_Durgesh\system_management\target\classes started by My in C:\Users\My\OneDrive\Documents\Project\learn_with_Durgesh\system_management)
+2024-03-07T15:56:40.450+05:30  INFO 10352 --- [main] c.p.m.SystemManagementApplication        : The following 1 profile is active: "dev"
+2024-03-07T15:56:42.715+05:30  INFO 10352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-07T15:56:42.874+05:30  INFO 10352 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interface.
+2024-03-07T15:56:44.444+05:30  INFO 10352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-07T15:56:44.482+05:30  INFO 10352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-07T15:56:44.482+05:30  INFO 10352 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-03-07T15:56:44.650+05:30  INFO 10352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-07T15:56:44.651+05:30  INFO 10352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3883 ms
+2024-03-07T15:56:45.764+05:30  INFO 10352 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-07T15:56:45.835+05:30  INFO 10352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-07T15:56:46.252+05:30  INFO 10352 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43a7203e
+2024-03-07T15:56:46.258+05:30  INFO 10352 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-07T15:56:48.636+05:30  INFO 10352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T15:56:49.215+05:30  INFO 10352 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-07T15:56:50.049+05:30  WARN 10352 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-07T15:56:50.254+05:30 DEBUG 10352 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-03-07T15:56:50.471+05:30 DEBUG 10352 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-03-07T15:56:50.553+05:30 DEBUG 10352 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-07T15:56:50.646+05:30 DEBUG 10352 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-07T15:56:50.950+05:30  INFO 10352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-07T15:56:50.969+05:30  INFO 10352 --- [main] c.p.m.SystemManagementApplication        : Started SystemManagementApplication in 11.583 seconds (process running for 13.868)
+2024-03-07T15:59:47.076+05:30  INFO 10352 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-07T15:59:47.084+05:30  INFO 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-07T15:59:47.084+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-07T15:59:47.084+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-07T15:59:47.084+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-07T15:59:47.084+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@583b177a
+2024-03-07T15:59:47.092+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4fd8aefe
+2024-03-07T15:59:47.092+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-07T15:59:47.092+05:30  INFO 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-03-07T15:59:47.124+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/save", parameters={}
+2024-03-07T15:59:47.172+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.pwpl.managment.controller.EmployeeController#saveEmployeeData(Employee)
+2024-03-07T15:59:47.581+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Employee [employeeId=0, empFirstName=prajkta, empLastName=wasalwar, empAdharNumber=52588771718, empM (truncated)...]
+2024-03-07T15:59:47.918+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.pwpl.managment.exception.GlobalExceptionHandler#handleMethodArgNotValidException(MethodArgumentNotValidException)
+2024-03-07T15:59:47.982+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-07T15:59:48.008+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{empAdharNumber=size must be between 12 and 12}]
+2024-03-07T15:59:48.095+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.pwpl.managment.model.Employee> com.pwpl.managment.controller.EmployeeController.saveEmployeeData(com.pwpl.managment.model.Employee): [Field error in object 'employee' on field 'empAdharNumber': rejected value [52588771718]; codes [Size.employee.empAdharNumber,Size.empAdharNumber,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.empAdharNumber,empAdharNumber]; arguments []; default message [empAdharNumber],12,12]; default message [size must be between 12 and 12]] ]
+2024-03-07T15:59:48.127+05:30 DEBUG 10352 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2024-03-07T16:00:14.357+05:30 DEBUG 10352 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/save", parameters={}
+2024-03-07T16:00:14.357+05:30 DEBUG 10352 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.pwpl.managment.controller.EmployeeController#saveEmployeeData(Employee)
+2024-03-07T16:00:14.365+05:30 DEBUG 10352 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Employee [employeeId=0, empFirstName=prajkta, empLastName=wasalwar, empAdharNumber=112233445566, emp (truncated)...]
+2024-03-07T16:00:14.365+05:30  INFO 10352 --- [http-nio-8080-exec-4] c.p.m.controller.EmployeeController      : !----------SaveEmployeeData--InTo--DB------------!
+2024-03-07T16:00:14.373+05:30  INFO 10352 --- [http-nio-8080-exec-4] c.p.m.service.EmployeeServiceImpl        : !----------SaveEmployeeData--InTo--DB------------!
+2024-03-07T16:00:14.810+05:30 DEBUG 10352 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-07T16:00:14.810+05:30 DEBUG 10352 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Employee [employeeId=3, empFirstName=prajkta, empLastName=wasalwar, empAdharNumber=112233445566, emp (truncated)...]
+2024-03-07T16:00:14.842+05:30 DEBUG 10352 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2024-03-07T16:01:04.557+05:30  INFO 10352 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-07T16:01:04.589+05:30  INFO 10352 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-07T16:01:04.605+05:30  INFO 10352 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-07T16:01:04.636+05:30  INFO 10352 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
